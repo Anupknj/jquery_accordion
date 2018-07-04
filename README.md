@@ -1,5 +1,5 @@
-# jquery_accordion
-bootstrap accordion using jquery
+# jquery_assignment
+bootstrap components like accordion, navbar and modal using jQuery
 
 first compoonent - accordion.txt
 
