@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery UI Accordion - Collapse content</title>
+	<link rel="stylesheet" href="./jQuery UI Accordion - Collapse content_files/jquery-ui.css">
+	<link rel="stylesheet" href="./jQuery UI Accordion - Collapse content_files/style.css">
+	<script src="./jQuery UI Accordion - Collapse content_files/jquery-1.12.4.js.download"></script>
+	<script src="./jQuery UI Accordion - Collapse content_files/jquery-ui.js.download"></script>
+<style>
+
+	.flex-container{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		background-color: #cfcfcf;
+	}
+</style>
+
+	<script>
+	$( function() {
+		$( "#accordion" ).accordion({
+			collapsible: true
+		});
+	} );
+	</script>
+
+
+</head>
+<body>
+
+<div class="flex-container">
+<div>
+<h1 style="text-align: center;">Favourable teams in fifa 18 WC(Predections before the start of tournament)</h1>
+</div>
+
+<div>
+<div id="accordion" class="ui-accordion ">
+	<h3 class="ui-accordion-header">
+	 <span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Germany</h3>
+	<div class="ui-accordion-content"  style="display: none; height: 148px;">
+		<p>Defending champs....They have won it 4 times.Players like Marco Reus, Mesut ozil,Tony kroos, Manuel neuer, Mario gomez ......make it strong</p>
+	</div>
+
+	<h3 class="ui-accordion-header" ><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Spain</h3>
+	<div class="ui-accordion-content"  style="display: none; height: 148px;">
+		<p>Most balanced team with Diego Costa, Andrew Iniesta,Isco,Pique, Degea, Sergio Ramos ....... </p>
+	</div>
+
+	<h3 class="ui-accordion-header"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Argentina</h3>
+	<div class="ui-accordion-content" style="display: none; height: 148px;">
+		<p>Only one word to say.........magical Messi!!!!</p>
+		
+	</div>
+
+	<h3 class="ui-accordion-header"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span>Brazil</h3>
+	<div class="ui-accordion-content"  style="display: none; height: 148px;">
+		<p>Only team qualified in all year for group stages and won it most number of times  i.e, 5</p>
+	</div>
+</div>
+
+</div>
+
+</body>
+</html>

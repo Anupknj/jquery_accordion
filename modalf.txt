@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modal using jquery and stuff</title>
+	<link rel="stylesheet"  href="modalf.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<div class="view">
+
+<div class="modalclosed">
+<h1 style="text-align: center;">Indian Team</h1>
+<div class="wrapper">
+    <button id="info" class="button">Click</button>
+</div>
+</div>
+
+<div class="modalopen flex-container">
+<div>
+<h1 id="list" style="text-align: center;color: red;">WE ARE INVINCIBLE</h1>
+</div>
+<div>
+<button id="topcorner">Close</button>
+</div>
+</div>
+
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#info').on('click',function(){
+		$('.overview').show();
+		$('.modalclosed').hide();
+		$('.modalopen').fadeIn(4000);
+	});
+
+	$("#topcorner").on('click',function(){
+        $('.overview').hide();
+        $('.modalopen').hide();
+        $('.modalclosed').fadeIn();
+		
+	});
+
+});
+</script>
+
+</body>
+</html>

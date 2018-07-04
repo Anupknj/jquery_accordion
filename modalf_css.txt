@@ -1,0 +1,75 @@
+.modalopen{
+	background-color: #ffffff;
+	padding: 100px;
+	border : 2px solid #000000;	
+	font-size: 10px;
+	display: none;
+	height: 250px;
+	width: 700px;
+	background-image: url("india.jpg");
+	background-repeat: no-repeat;
+
+}
+
+.overview{
+	background-color: #cfcfcf;
+	background-image: url("india.jpg");
+	background-repeat: no-repeat;
+}
+
+.modalclosed{
+	background-color: #ffffff ;
+	padding: 25px;
+	align-content: center;
+}
+
+#topcorner{
+
+  position:absolute;
+  top:60px;
+  right:410px;
+  }
+
+
+  .view{
+
+  	border: 20px;
+  	padding: 50px;
+  	background-color: #cfcfcf;
+  }
+
+  .wrapper {
+    text-align: center;
+}
+
+.button {
+    position: relative;
+    top: 35%;
+}
+
+
+body{
+	background-color: #cfcfcf;
+}
+
+@media screen	and (max-width: 100px){
+	.modalopen{
+		text-align: left;
+		padding: 15px;
+		width: 100%;
+		height:100px;
+		background-color: #cfcfcf;
+	    background-image: url("");
+	    background-repeat: no-repeat;
+	}
+
+	  .wrapper {
+    text-align: left;
+}
+
+.button {
+    position: absolute;
+    top: 35%;
+}
+
+}
